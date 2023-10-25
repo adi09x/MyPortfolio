@@ -15,7 +15,7 @@ const WorkCard = () => {
           <div
             data-aos="zoom-in"
             key={data.id}
-            className="grid grid-cols-2 sm:grid-cols-1 gap-8"
+            className="grid grid-cols-2 sm:grid-cols-1 gap-8 border-4"
           >
             <POPUP className="img-content relative overflow-hidden">
               <div className="h-full max-h-[280px] w-full max-w-[480px] hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden">
@@ -52,18 +52,18 @@ const WorkCard = () => {
                   </Link>
                 </div>
               </div>
+
             </POPUP>
             <div className="">
               <h1 className="text-gray-800 text-xl font-medium sm:text-lg">
                 {data.title}
               </h1>
               <p className="font-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident officiis numquam at ratione pariatur consectetur ex
-                consequatur rem accusamus ut dicta, iure sed quod, quaerat quis
-                recusandae aperiam? Dicta, laudantium?
+              {data.large_desc}
               </p>
             </div>
+
+            
           </div>
         )
       })}

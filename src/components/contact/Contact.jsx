@@ -24,7 +24,7 @@ const Contact = () => {
             >
               <h1 className="text-5xl font-bold sm:text-3xl">Anything Else...</h1>
               <h3 className="text-xl sm:text-lg">
-                Leave your questions here
+                Leave your queries here
               </h3>
             </div>
           </div>
