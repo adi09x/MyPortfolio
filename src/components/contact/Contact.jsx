@@ -45,7 +45,7 @@ const Contact = () => {
             data-aos="zoom-in"
             
             className="flex justify-center items-center flex-col gap-5 w-[70%] md:w-[100%] sm:w-[95%] mx-auto"
-            action="mailto:xyz@gmail.com"
+            action="mailto:adityajadhav4055@gmail.com"
           >
             <input
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
