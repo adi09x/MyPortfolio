@@ -14,7 +14,7 @@ import resumePDF from "../../assets/AdityaJadhavResume2.pdf";
 const Hero = () => {
   return (
     <div id="home" className={` bg-gradient-to-r from-green-200 to-blue-200 `}>
-      <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
+      <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:pt-0 ">
         <div className=" left mt-4 md:mt-0 flex-1 flex flex-col justify-center gap-5 w-1/2 md:w-full md:py-2 sm:py-0">
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
             <h2
@@ -97,18 +97,18 @@ const Hero = () => {
             </ul>
           </div>
         </div>
-        <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
-          <div className="relative h-[111%] w-fit flex items-center sm:items-end ">
-            <img
+        
+        <div className="right flex top-5 flex-1 items-center justify-center md:items-end sm:items-end">
+        <div className="relative flex w-full items-center sm:items-end ">
+          <img
             data-aos="fade-up"
-              className=" h-[90%]  w-full object-cover md:h-[150%] md:m-auto sm:m-0"
-              src='https://i.postimg.cc/sD72syDn/Untitled-design-6.png'
-              // src={mine}
-              alt="mine"
-            />
-            
-          </div>
+            className="max-w-full h-auto md:max-h-full md:m-auto sm:m-0"
+            src="https://i.postimg.cc/sD72syDn/Untitled-design-6.png"
+            alt="mine"
+          />
         </div>
+      </div>
+
       </div>
     </div>
   );
