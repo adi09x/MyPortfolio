@@ -37,6 +37,12 @@ html {
   background: #000;
 }
 
+.hero-image {
+  border: none; /* Remove the border */
+  mix-blend-mode: screen; /* Apply mix-blend-mode, you can choose another mode if desired */
+}
+
+
 
 
 
