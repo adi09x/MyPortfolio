@@ -7,7 +7,7 @@ export const data = [
     title: "E Commerce for Artisans",
     desc: "",
     large_desc:"E-commerce for Artisans is a platform dedicated to empowering rural artisans. This system allows artists to showcase their diverse talents and sell their creations in an online marketplace. Additionally, it enables individuals to commission personalized designs from these skilled artisans, fostering a direct and unique connection between creators and customers, while promoting traditional craftsmanship.",
-    link: "",
+    link: "https://ecom-for-artisans.vercel.app/",
     git: "",
   },
   {
@@ -17,7 +17,7 @@ export const data = [
     link: "",
     desc:"",
     large_desc:"Traveler Landing Page is a user-friendly platform tailored for travelers, offering a seamless experience to plan their journeys. Users can select their desired destinations, book tickets, schedule flights, and explore special attractions at their fingertips. This project brings convenience and excitement to travel enthusiasts, providing a one-stop solution for their travel planning needs.",
-    git: "",
+    git: "https://github.com/adi09x/Traveller-s-Landing-Page",
   },
   
   {
@@ -26,8 +26,8 @@ export const data = [
     title: "Restaurant X",
     desc: "",
     large_desc:"RestaurantX is a dynamic food donation and waste management system designed to connect restaurants, NGOs, and volunteers. It streamlines the process of donating surplus restaurant food to those in need while reducing food waste. By creating a seamless platform for food donation and coordination, RestaurantX is a powerful solution that brings together businesses and individuals for a meaningful social impact.",
-    link: "",
-    git: "",
+    link: "https://kgade45.github.io/restaurant/",
+    git: "https://github.com/adi09x/Restaurant",
   },
 
   {
